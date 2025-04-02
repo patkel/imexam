@@ -1250,7 +1250,7 @@ class Imexamine:
 
             if fitplot:
                 ax.plot(fline, yfit, linestyle='-', c='r', label=fitform.name)
-                ax.set_xlim(0, datasize, 0.5)
+                #ax.set_xlim(0, datasize, 0.5)
                 ax.text(legendx, legendy, legend)
 
             ax.set_title(title)
